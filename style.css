@@ -1,0 +1,75 @@
+body {
+    width: 100vw; /* Body width takes up 100% of the viewport width */
+    height: 100vh; /* Body height takes up 100% of the viewport height */
+    margin: 0; /* Remove default margin to ensure body fills the entire viewport */
+    padding: 0; /* Remove default padding to ensure body fills the entire viewport */
+    overflow-x: hidden; /* Optional: Prevent horizontal scrolling */
+    font-family:fantasy;
+}
+
+#d1{
+    background-color:hsl(241, 81%, 54%);;
+    border:1% solid hsl(241, 81%, 54%);
+    border-radius: 20px;
+    width:30vw;
+    height:70vh;
+}
+#dp1{
+    color:rgba(255, 255, 255, 0.687);
+    text-align: center;
+    padding-top:6vh;
+    letter-spacing:0.1rem;
+    font-weight:300;
+}
+#dd1{
+    height:25vh;
+    width:25vh;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius:100vh;
+    background-color: hsla(256, 72%, 46%, 1);
+    border-top:1px solid hsla(256, 72%, 46%, 1);
+    border-left:1px solid hsla(256, 72%, 46%, 1);
+    border-right:1px solid hsla(256, 72%, 46%, 1);
+    border-bottom: 1px solid hsla(241, 81%, 54%);
+}
+#dd1p{
+    font-weight: 700;
+    color:white;
+    font-size: 3.5em;
+    margin-left: 34%;
+    margin-right: 34%;
+    margin-top:25%;
+}
+#dd2p{
+    color:rgba(255, 255, 255, 0.687);
+    font-weight:300;
+    position:absolute;
+    top:32%;
+    left:13.5%;
+    right:auto;
+}
+}
+#sd{
+    border:1% solid white;
+    box-sizing: content-box;
+    height:70vw;
+    width:60vw;
+}
+#summary{
+    color: color:hsl(224, 30%, 27%);
+    letter-spacing:0.1rem;
+}
+br{
+color:hsl(221, 100%, 96%);
+color:hsl(241, 100%, 89%);
+color:hsl(224, 30%, 27%);
+color:hsl(252, 100%, 67%);
+color:hsl(241, 81%, 54%);
+color:hsla(256, 72%, 46%, 1);
+color: hsla(241, 72%, 46%, 0);
+color:hsl(0, 100%, 67%)
+color: hsl(39, 100%, 56%);
+color: hsl(166, 100%, 37%);
+color: hsl(234, 85%, 45%);
+}
