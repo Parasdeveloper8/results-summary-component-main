@@ -27,7 +27,8 @@ body {
     margin-left:auto;
     margin-right:auto;
     border-radius:100vh;
-    background-color: hsla(256, 72%, 46%, 1);
+    box-shadow: 0 0 10vw  rgb(92, 51, 255);
+    background-color: rgb(92, 51, 255);
     border-top:1px solid hsla(256, 72%, 46%, 1);
     border-left:1px solid hsla(256, 72%, 46%, 1);
     border-right:1px solid hsla(256, 72%, 46%, 1);
@@ -47,8 +48,6 @@ body {
     position:absolute;
     top:32%;
     left:13.5%;
-    right:auto;
-}
 }
 #sd{
     border:1% solid white;
@@ -60,6 +59,33 @@ body {
     color: color:hsl(224, 30%, 27%);
     letter-spacing:0.1rem;
 }
+#great{
+    color: white;
+    text-align: center;
+    letter-spacing:0.1rem;
+    font-weight: 500;
+}
+.info{
+    color:rgba(255, 255, 255, 0.687);
+    font-weight:300;
+    font-size:1.2em ;
+}
+.co{
+    padding-left: 5vw;
+    padding-right: 3vw;
+}
+.ct{
+    padding-left: 6vw;
+    padding-right: 4vw;
+    position:absolute;
+    top:55vh;
+}
+.cth{
+    padding-left: 10vw;
+    padding-right: vw;
+    position:absolute;
+    top:59vh;
+}
 br{
 color:hsl(221, 100%, 96%);
 color:hsl(241, 100%, 89%);
@@ -67,7 +93,7 @@ color:hsl(224, 30%, 27%);
 color:hsl(252, 100%, 67%);
 color:hsl(241, 81%, 54%);
 color:hsla(256, 72%, 46%, 1);
-color: hsla(241, 72%, 46%, 0);
+color: hsla(241, 62%, 51%, 0);
 color:hsl(0, 100%, 67%)
 color: hsl(39, 100%, 56%);
 color: hsl(166, 100%, 37%);
