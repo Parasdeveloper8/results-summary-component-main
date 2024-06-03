@@ -62,7 +62,7 @@ body {
     border-radius: 20px;
 }
 #summary{
-    color: color:hsl(224, 30%, 27%);
+    color:hsl(224, 30%, 27%);
     letter-spacing:0.1rem;
     font-weight:300;
     position:absolute;
@@ -97,7 +97,7 @@ body {
     top:59vh;
 }
 .same{
-    border:1px solid black;
+    border:1px solid white;
     width:20vw;
     border-radius: 5px;
     height:5vh;
@@ -132,12 +132,32 @@ body {
 #visual{
     color: rgb(69, 16, 216)
 }
-.red{background-color:hsl(0, 100%, 67%);}
-.green{background-color:hsl(166, 100%, 37%);}
-.yellow{background-color:hsl(39, 100%, 56%);}
-.purple{background-color:hsl(252, 100%, 67%);}
+.red{
+    background-color:rgb(247, 187, 187);}
+.green{
+    background-color:rgb(201, 243, 232);}
+.yellow{
+    background-color:rgb(248, 221, 172);}
+.purple{
+    background-color:rgb(208, 199, 245);}
+.pos{
+    position:absolute;
+    left:33vw;
+    top:16vh;
+}
+.light{
+    color: rgb(79, 78, 78);
+}
+button{
+    background-color:hsl(224, 30%, 27%) ;
+    color:white;
+    width:20vw;
+    height:7vh;
+    border-radius: 5vw;
+    margin-top: 5vh;
+}
 br{
-color:hsl(221, 100%, 96%);
+color:hsl(222, 90%, 88%);
 color:hsl(241, 100%, 89%);
 color:hsl(224, 30%, 27%);
 color:hsl(252, 100%, 67%);
