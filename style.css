@@ -16,6 +16,11 @@ body {
     position: absolute;
     left:30%;
 }
+.page{
+    position:absolute;
+    top:17%;
+    left:20%;
+}
 #dp1{
     color:rgba(255, 255, 255, 0.687);
     text-align: center;
