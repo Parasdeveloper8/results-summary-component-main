@@ -97,7 +97,6 @@ body {
 }
 .cth{
     padding-left: 10vw;
-    padding-right: vw;
     position:absolute;
     top:59vh;
 }
@@ -161,15 +160,94 @@ button{
     border-radius: 5vw;
     margin-top: 5vh;
 }
-br{
-color:hsl(222, 90%, 88%);
-color:hsl(241, 100%, 89%);
-color:hsl(224, 30%, 27%);
-color:hsl(252, 100%, 67%);
-color:hsl(241, 81%, 54%);
-color:hsla(256, 72%, 46%, 1);
-color: hsla(241, 62%, 51%, 0);
-color:hsl(0, 100%, 67%)
-color:hsl(39, 100%, 56%);
-color: hsl(166, 100%, 37%);
-color: hsl(166, 100%, 37%);
+@media only screen and (max-width:500px) {
+    #sd{
+        height:100vh;
+        width:100vw;
+        position:absolute;
+        top:0vh;
+        left:0vw;
+        right:0vw;
+        border-radius: 0;
+    }
+    .page{
+        position: absolute;
+        top:0vh;
+        left:0vw;
+        right:0vw;
+    }
+    #d1{
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        width:100vw;
+        height:45vh;
+        position:absolute;
+        top:0%;
+        left:0%;
+        right:0%;
+    }
+    #summary{
+        position: absolute;
+        top:43%;
+        left:8%;
+    }
+    .pos{
+        position:absolute;
+        left:8%;
+        top:54%;
+    }
+    .same{
+        width:85vw;
+        height:6vh;
+    }
+    button{
+        width:85vw;
+        height:6vh;
+        margin-top: 3vh;
+    }
+    #dd1{
+        height:15vh;
+        width:15vh;
+    }
+    #dd1p{
+        font-size: 2em;
+        margin-left: 34%;
+        margin-right: 34%;
+        margin-top:25%;
+    }
+    #dd2p{
+        position: absolute;
+        top:20vh;
+        left:47vw;
+        font-size:0.6em;
+    }
+    #dp1{
+        font-size:1em;
+        padding-top: 2vh;
+    }
+    #great{
+        font-size:1em;
+    }
+    .info{
+        font-size:0.8em;
+        display:inline;
+    }
+    .co{
+        position: absolute;
+        top:31.5vh;
+        left:13vh;
+        font-size:0.8em;
+    }
+    .ct{
+        position: absolute;
+        top:34.5vh;
+        left:10.5vh;
+        font-size:0.8em;
+    }
+    .cth{
+        position: absolute;
+        top:34.5vh;
+        right:7.5vh;
+        font-size:0.8em;
+    }
+}
