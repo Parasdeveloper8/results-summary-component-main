@@ -8,7 +8,7 @@ body {
 }
 
 #d1{
-    background-color:hsl(241, 81%, 54%);;
+    background-image:linear-gradient(to bottom ,rgb(103, 66, 252),  hsl(241, 81%, 54%));
     border:1% solid hsl(241, 81%, 54%);
     border-radius: 20px;
     width:30vw;
@@ -35,11 +35,12 @@ body {
     margin-right:auto;
     border-radius:100vh;
     box-shadow: 0 0 10vw  rgb(92, 51, 255);
-    background-color: rgb(92, 51, 255);
+    background-image:linear-gradient(to bottom,hsla(256, 72%, 46%, 1), hsla(241, 81%, 54%));
     border-top:1px solid hsla(256, 72%, 46%, 1);
     border-left:1px solid hsla(256, 72%, 46%, 1);
     border-right:1px solid hsla(256, 72%, 46%, 1);
     border-bottom: 1px solid hsla(241, 81%, 54%);
+    filter: blur(50%);
 }
 #dd1p{
     font-weight: 700;
